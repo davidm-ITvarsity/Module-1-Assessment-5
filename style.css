@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #0f0f0f;
+}
+
+/* Header */
+header {
+  padding: 1rem 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #21a3ff;
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #326d96;
+}
+
+.logo img {
+  width: 80px;
+}
+
+nav a {
+  margin-left: 2rem;
+}
+
+/* Main */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 10%;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #eee;
+  text-align: center;
+}
+
+main p {
+  color: #eee;
+  font-size: 1.225rem;
+  font-weight: 400;
+  padding: 0.3rem;
+  text-align: center;
+}
+
+/* Row Images */
+.col-hero img {
+  width: 450px;
+  border: 1px solid #21a3ff;
+}
+
+.row-avengers {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 1;
+}
+
+.col-hero {
+  margin: 1rem;
+}
+
+/* Bio Page */
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  color: #ff00b3;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.gallery img {
+  width: 500px;
+  border: 2px solid #ff00b3;
+}
+
+.container-bio {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-bottom: 5rem;
+}
+
+.bio {
+  margin: 0 auto;
+  padding: 5rem 10rem;
+  background: linear-gradient(250deg, #00c3ff, #ff00b3);
+  border-radius: 20px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.bio h4 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.bio p {
+  font-size: 1.2rem;
+}
+
+.about,
+.contact p {
+  text-align: center;
+  color: #eee;
+  font-size: 1.3rem;
+}
+
+.contact p {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.contact p:hover {
+  color: #00c3ff;
+}
